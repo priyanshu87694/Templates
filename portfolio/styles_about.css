@@ -1,0 +1,145 @@
+body {
+    background-color: lightgoldenrodyellow;
+}
+/* Navigation Bar */
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(20,20,20);
+}
+.nav-bar {
+    height: 50px;
+    /* border: 1px solid black; */
+}
+
+.left-side {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 200px;
+    left: 10px;
+    top: 5px;
+}
+.nav-bar > .left-side > .link1 {
+    height: 25px;
+    position: relative;
+    top: 10px;
+}
+.nav-bar > .left-side > .link2 {
+    height: 25px;
+    position: relative;
+    top: 10px;
+}
+.nav-bar > .left-side > .link3 {
+    height: 25px;
+    position: relative;
+    top: 10px;
+}
+.nav-bar > .left-side > .link1 > a {
+    font-size: large;
+    color: skyblue;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nav-bar > .left-side > .link2 > a {
+    font-size: large;
+    color: skyblue;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nav-bar > .left-side > .link3 > a {
+    font-size: large;
+    color: skyblue;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nav-bar > .left-side > .link1 > a:hover {
+    border-bottom: 1px solid hotpink;
+}
+.nav-bar > .left-side > .link2 > a:hover {
+    border-bottom: 1px solid hotpink;
+}
+.nav-bar > .left-side > .link3 > a:hover {
+    border-bottom: 1px solid hotpink;
+}
+.right-side {
+    position: relative;
+    right: 10px;
+}
+.nav-bar > .right-side > .brand {
+    position: relative;
+    bottom: 1px;
+}
+.nav-bar > .right-side > .brand > h3 {
+    color: seagreen;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.nav-bar > .right-side > .brand > h3:hover {
+    color: white;
+}
+
+/* Main section */
+
+.main-section {
+    width: 1250px;
+    height: 450px;
+    position: relative;
+    left: 5px;
+    bottom: 10px;
+    background-color: rgb(20,20,20);
+}
+.container > .main-section > .heading {
+    width: 625px;
+    height: 50px;
+    position: relative;
+    left: 35px;
+    top: 25px;
+}
+.container > .main-section > .heading > h1 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container > .main-section > .text {
+    width: 1000px;
+    position: relative;
+    left: 40px;
+    top: 30px;
+}
+.container > .main-section > .text > p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+.container > .main-section > .text > p > a {
+    text-decoration: none;
+    color: skyblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Bottom section */
+
+.fa {
+    position: relative;
+    bottom: 10px;
+    left: 450px;
+    padding: 20px;
+    font-size: 30px;
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.container > a {
+    font-size: xx-large;
+}
+.fa-reddit {
+    color: #FF5700;
+}
+.fa-linkedin {
+    color: #0e76a8;
+}
+.fa-github {
+    color: #4078c0;
+}
