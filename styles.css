@@ -1,0 +1,126 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(60,60,60);
+    height: 70px;
+    flex-wrap: wrap;
+}
+.navbar > .link1 > a {
+    text-decoration: none;
+    color: aliceblue;
+}
+.navbar > .link2 > a {
+    text-decoration: none;
+    color: aliceblue;
+}
+.navbar > .link3 > a {
+    text-decoration: none;
+    color: aliceblue;
+}
+.navbar { 
+    position: relative;
+    top: 50px;
+
+}
+.navbar > .link1 > a {
+    font-size: xx-large;
+}
+.navbar > .link2 > a {
+    font-size: xx-large;
+}
+.navbar > .link3 > a {
+    font-size: xx-large;
+}
+.navbar > .link1 > a {
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+.navbar > .link2 > a {
+    position: relative;
+    top: 10px;
+}
+.navbar > .link3 > a {
+    position: relative;
+    top: 10px;
+    right: 20px;
+}
+
+/* Tarffic Light */
+.traffic-light {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+    top: 400px;
+    background-color: rgb(60,60,60);
+    height: 120px;
+}
+.traffic-light > .left > .left-button {
+    position: relative;
+    top: 10px;
+}
+.traffic-light > .center > .center-button {
+    position: relative;
+    top: 10px;
+}
+.traffic-light > .right > .right-button {
+    position: relative;
+    top: 10px;
+}
+.traffic-light > .left > .left-button > button {
+    border-style: none;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: rgb(200,20,20);
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+.traffic-light > .center > .center-button > button {
+    border-style: none;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: orangered;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+.traffic-light > .right > .right-button > button {
+    border-style: none;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: limegreen;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+/* animations */
+@keyframes change-color-left {
+    from {background-color: rgb(200,20,20);}
+    to {background-color: purple;}
+}
+@keyframes change-color-center {
+    from {background-color: orangered;}
+    to {background-color: purple;}
+}
+@keyframes change-color-right {
+    from {background-color: limegreen;}
+    to {background-color: purple;}
+}
+
+.traffic-light > .left > .left-button > button:hover {
+    animation-name: change-color-left;
+    animation-duration: 1s;
+    background-color: purple;
+}
+.traffic-light > .center > .center-button > button:hover {
+    animation-name: change-color-center;
+    animation-duration: 1s;
+    background-color: purple;
+}
+.traffic-light > .right > .right-button > button:hover {
+    animation-name: change-color-center;
+    animation-duration: 1s;
+    background-color: purple;
+}
